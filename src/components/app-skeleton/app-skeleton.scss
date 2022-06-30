@@ -1,0 +1,10 @@
+.skeleton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding: 6.625rem 0;
+
+    &__img {
+        max-width: 100%;
+    }
+}

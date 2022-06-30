@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+.App {
+    font-family: 'Inter', sans-serif;
+    background-color: #fbfaf9;
+}
+
+.app-container {
+    padding: 0rem 2rem;
+    -webkit-padding-start: 2rem;
+    padding-inline-start: 2rem;
+    -webkit-padding-end: 2rem;
+    padding-inline-end: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .app-container {
+        padding: 0rem 4rem;
+        -webkit-padding-start: 4rem;
+        padding-inline-start: 4rem;
+        -webkit-padding-end: 4rem;
+        padding-inline-end: 4rem;
+    }
+}
+
+.hero {
+    padding: 4rem 0 0 0;
+}
+
+.skeleton {
+    padding: 6.625rem 0 0 0;
+}

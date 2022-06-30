@@ -1,0 +1,84 @@
+.mid-section {
+    width: 100%;
+    padding: 4rem 0;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+
+    &__article {
+        flex: 0 0 100%;
+        text-align: center;
+
+        @media only screen and (min-width: 768px) {
+            text-align: left;
+            flex: 0 0 35%;
+        }
+
+        @media only screen and (min-width: 1024px) {
+            text-align: left;
+            flex: 0 0 35%;
+        }
+
+        @media only screen and (min-width: 1440px) {
+            text-align: left;
+            flex: 0 0 30%;
+        }
+    }
+
+    &__image {
+        flex: 0 0 100%;
+
+        @media only screen and (min-width: 768px) {
+            flex: 0 0 60%;
+        }
+
+        @media only screen and (min-width: 1024px) {
+            flex: 0 0 60%;
+        }
+
+        @media only screen and (min-width: 1440px) {
+            flex: 0 0 60%;
+        }
+    }
+
+
+    &__label {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    &__title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        color: #1B1B1A;
+    }
+
+    &__subtitle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 1.5rem;
+        color: #1B1B1A;
+        opacity: 0.8;
+    }
+
+    &__img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+}
