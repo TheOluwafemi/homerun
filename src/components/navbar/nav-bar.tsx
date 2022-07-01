@@ -21,7 +21,7 @@ export default function navbar() {
           <ul className="nav__items">
             <li className="nav__item">
               <a href="#">Product</a>
-              <img src={Expand} alt="expand" width={8} height={4} />
+              <img src={Expand} alt="expand" width={20} height={4} />
             </li>
             <li className="nav__item">
               Pricing
@@ -31,7 +31,7 @@ export default function navbar() {
             </li>
             <li className="nav__item">
               <a href="#">Learn</a>
-              <img src={Expand} alt="expand" width={8} height={4} />
+              <img src={Expand} alt="expand" width={20} height={4} />
             </li>
           </ul>
         </div>
@@ -64,7 +64,7 @@ export default function navbar() {
             <ul className="nav__items">
               <li className="nav__item">
                 <a href="#">Product</a>
-                <img src={Expand} alt="expand" width={8} height={4} />
+                <img src={Expand} alt="expand" width={20} height={4} />
               </li>
               <li className="nav__item">
                 Pricing
@@ -74,7 +74,7 @@ export default function navbar() {
               </li>
               <li className="nav__item">
                 <a href="#">Learn</a>
-                <img src={Expand} alt="expand" width={8} height={4} />
+                <img src={Expand} alt="expand" width={20} height={4} />
               </li>
             </ul>
           </div>
