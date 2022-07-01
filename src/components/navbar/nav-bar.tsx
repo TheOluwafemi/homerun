@@ -18,30 +18,30 @@ export default function navbar() {
         </div>
 
         <div className="nav__menu">
-          <ul className="nav__item">
-            <li className="nav__items">
+          <ul className="nav__items">
+            <li className="nav__item">
               <a href="#">Product</a>
-              <img src={Expand} alt="expand" />
+              <img src={Expand} alt="expand" width={8} height={4} />
             </li>
-            <li className="nav__items">
+            <li className="nav__item">
               Pricing
             </li>
-            <li className="nav__items">
+            <li className="nav__item">
               Customers
             </li>
-            <li className="nav__items">
+            <li className="nav__item">
               <a href="#">Learn</a>
-              <img src={Expand} alt="expand" />
+              <img src={Expand} alt="expand" width={8} height={4} />
             </li>
           </ul>
         </div>
 
         <div className="nav__cta">
-          <Button colorScheme='purple' variant='link'>
+          <Button colorScheme='brandPurple' variant='link'>
             Log In
           </Button>
 
-          <Button colorScheme='purple'>Start 14-day trial</Button>
+          <Button colorScheme='brandPurple'>Start 14-day trial</Button>
 
         </div>
 
@@ -61,29 +61,25 @@ export default function navbar() {
       <Fade in={isNavOpened}>
         {
           isNavOpened && <div className="nav__mobile">
-            <ul className="nav__item">
-              <li className="nav__items">
+            <ul className="nav__items">
+              <li className="nav__item">
                 <a href="#">Product</a>
-                <img src={Expand} alt="expand" />
+                <img src={Expand} alt="expand" width={8} height={4} />
               </li>
-              <li className="nav__items">
+              <li className="nav__item">
                 Pricing
               </li>
-              <li className="nav__items">
+              <li className="nav__item">
                 Customers
               </li>
-              <li className="nav__items">
+              <li className="nav__item">
                 <a href="#">Learn</a>
-                <img src={Expand} alt="expand" />
+                <img src={Expand} alt="expand" width={8} height={4} />
               </li>
             </ul>
           </div>
         }
       </Fade>
-
-
-
-
     </nav>
   )
 }

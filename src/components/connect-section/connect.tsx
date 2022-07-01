@@ -5,7 +5,7 @@ import ConnectImage from '../../assets/images/connect.png'
 export default function
     () {
     return (
-        <div className='mid-section'>
+        <section className='mid-section'>
             <div className="mid-section__content">
                 <article className='mid-section__article'>
                     <p className='mid-section__label' style={{ color: '#33D1EA' }}>Connect</p>
@@ -15,11 +15,9 @@ export default function
                 </article>
 
                 <div className='mid-section__image'>
-                    <img className='mid-section__img' src={ConnectImage} alt="Organize your hiring" width={740} height={380} />
+                    <img className='mid-section__img' src={ConnectImage} alt="Organize your hiring" width={740} height={380} loading="lazy" />
                 </div>
-
-
             </div>
-        </div>
+        </section>
     )
 }

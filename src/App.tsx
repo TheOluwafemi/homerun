@@ -6,11 +6,13 @@ import AppSkeleton from './components/app-skeleton/app-skeleton'
 import Organize from './components/organize-section/organize'
 import Collaborate from './components/collaborate-section/collaborate'
 import Connect from './components/connect-section/connect'
-import TrailBanner from './components/trial-banner/trial-banner'
+import TrialBanner from './components/trial-banner/trial-banner'
+import More from './components/more-section/more'
+import StartFree from './components/start-free/start-free'
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Navbar />
       <Container className='app-container' maxW='container.xl'>
         <Hero />
@@ -18,10 +20,14 @@ function App() {
         <Organize />
         <Collaborate />
         <Connect />
-        <TrailBanner/>
       </Container>
 
-    </div>
+      <Container className='app-container' maxW='1440px'>
+        <TrialBanner />
+        <More />
+        <StartFree />
+      </Container>
+    </main>
   )
 }
 

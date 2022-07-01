@@ -5,10 +5,10 @@ import CollaborateImage from '../../assets/images/collaborate.png'
 export default function
     () {
     return (
-        <div className='mid-section'>
+        <section className='mid-section'>
             <div className="mid-section__content">
                 <div className='mid-section__image'>
-                    <img className='mid-section__img' src={CollaborateImage} alt="Organize your hiring" width={740} height={380} />
+                    <img className='mid-section__img' src={CollaborateImage} alt="Organize your hiring" width={740} height={380} loading="lazy" />
                 </div>
 
                 <article className='mid-section__article'>
@@ -17,10 +17,7 @@ export default function
                     <p className='mid-section__subtitle'>It’s easy for your whole team to join
                         in on hiring.</p>
                 </article>
-
-
-
             </div>
-        </div>
+        </section>
     )
 }

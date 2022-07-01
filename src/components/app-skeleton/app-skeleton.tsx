@@ -4,8 +4,8 @@ import { Container } from '@chakra-ui/react'
 
 export default function appskeleton() {
   return (
-    <div className='skeleton'>
-      <img className='skeleton__img' src={SkeletonImage} alt="image of app skeleton" width={1440} height={640} />
-    </div>
+    <section className='skeleton'>
+      <img className='skeleton__img' src={SkeletonImage} alt="image of app skeleton" width={1200} height={640} />
+    </section>
   )
 }

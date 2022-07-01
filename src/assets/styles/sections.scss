@@ -1,0 +1,50 @@
+.section {
+    &__title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 1.5;
+
+
+        &--black {
+            color: #1B1B1A;
+        }
+
+        &--white {
+            color: #fff;
+        }
+    }
+
+    &__subtitle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 1.5rem;
+        color: #1B1B1A;
+        opacity: 0.8;
+    }
+
+    &__info {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+
+        &--black {
+            color: #1B1B1A;
+        }
+
+        &--white {
+            color: #fff;
+        }
+
+        &--purple {
+            color: #7348FF;
+        }
+    }
+}
